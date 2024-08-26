@@ -1,0 +1,24 @@
+PODS:
+  - CombineCocoa (0.4.1)
+  - SnapKit (5.7.1)
+  - SnapshotTesting (1.8.2)
+
+DEPENDENCIES:
+  - CombineCocoa
+  - SnapKit (~> 5.7.0)
+  - SnapshotTesting (~> 1.8.1)
+
+SPEC REPOS:
+  trunk:
+    - CombineCocoa
+    - SnapKit
+    - SnapshotTesting
+
+SPEC CHECKSUMS:
+  CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SnapshotTesting: 38947050d13960d57a4a9c166fcf51bca7d56970
+
+PODFILE CHECKSUM: 813e94e15d61aa33ec7c544367dc64b424edcef3
+
+COCOAPODS: 1.15.2
