@@ -5,4 +5,10 @@
 //  Created by MATHEUS PAES CRESCENCIO on 21/08/24.
 //
 
-import Foundation
+import UIKit
+
+extension UIResponder {
+    var parentViewController: UIViewController? {
+        return next as? UIViewController ?? next?.parentViewController
+    }
+}
